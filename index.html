@@ -58,6 +58,44 @@
 		.social-media {
 			margin: 0 1px;
 		}
+
+		.three-columns {
+			text-align: center;
+			font-size: 0;
+			padding: 15px 0 25px;
+		}
+
+		.three-columns .column {
+			width: 100%;
+			max-width: 200px;
+			display: inline-block;
+			vertical-align: top;
+			text-align: center;
+		}
+
+		.three-columns .col-content {
+			padding: 15px;
+			vertical-align: top;
+		}
+
+		.three-columns .content {
+			font-size: 15px;
+			line-height: 20px;
+			padding: 0 5px;
+		}
+
+		.content strong {
+			display: block;
+			margin-top: 40px;
+		}
+
+
+		/* media queries */
+		@media screen and (max-width: 600px) {
+			.col-content {
+				padding: 10px !important;
+			}
+		}
 	</style>
 </head>
 
@@ -86,7 +124,7 @@
 											<tr>
 												<td style="padding: 0 62px 10px;"><a
 														href="https://responsivehtmlemail.com/html-email-course/"><img
-															src="./img/modern.jpg" width="170px" alt="Modern Logo"
+															src="./img/modern.jpg" width="170" alt="Modern Logo"
 															title="Modern Logo"></a></td>
 											</tr>
 										</table>
@@ -127,10 +165,92 @@
 					</tr>
 
 					<!-- BANNER IMAGE -->
-
+					<tr>
+						<td>
+							<a href="#"><img src="./img/banner.jpg" alt="Starry Sky" title="Banner Image" width="600"
+									style="max-width: 100%;"></a>
+						</td>
+					</tr>
 
 					<!-- THREE COLUMN SECTION -->
 
+					<tr>
+						<td>
+							<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td class="three-columns">
+										<table class="column" role="presentation" width="100%" cellpadding="0"
+											cellspacing="0" border="0">
+											<tr>
+												<td class="col-content">
+													<table class="content" role="presentation" width="100%"
+														cellpadding="0" cellspacing="0" border="0">
+														<tr>
+															<td><a href="#"><img src="./img/email.png" alt="email icon"
+																		title="Email Icon" width="130"
+																		style="display: block; margin: 0 auto; max-width: 130px;"></a>
+															</td>
+														</tr>
+														<tr>
+															<td>
+																<strong style="font-size: 17px;">Ecommerce</strong>
+																<p>Responsive HTML Email Template Course to master email
+																	development.</p>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</table>
+										<table class="column" role="presentation" width="100%" cellpadding="0"
+											cellspacing="0" border="0">
+											<tr>
+												<td class="col-content">
+													<table class="content" role="presentation" width="100%"
+														cellpadding="0" cellspacing="0" border="0">
+														<tr>
+															<td><a href="#"><img src="./img/settings.png"
+																		alt="settings icon" title="Settings Icon"
+																		width="130" style="max-width: 130px;"></a></td>
+														</tr>
+														<tr>
+															<td>
+																<strong style="font-size: 17px;">Web Design</strong>
+																<p>Responsive HTML Email Template Course to master email
+																	development.</p>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</table>
+										<table class="column" role="presentation" width="100%" cellpadding="0"
+											cellspacing="0" border="0">
+											<tr>
+												<td class="col-content">
+													<table class="content" role="presentation" width="100%"
+														cellpadding="0" cellspacing="0" border="0">
+														<tr>
+															<td><a href="#"><img src="./img/home.png" alt="home icon"
+																		title="Home Icon" width="130"
+																		style="max-width: 130px;"></a></td>
+														</tr>
+														<tr>
+															<td>
+																<strong style="font-size: 17px;">HTML Email</strong>
+																<p>Responsive HTML Email Template Course to master email
+																	development.</p>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
 
 					<!-- TWO COLUMN SECTION -->
 
